@@ -35,7 +35,7 @@ export default function Header({ searchBarvisible, muted, setMuted }) {
             className="w-12 md:w-14 h-12 p-2 md:p-0 md:h-14 bg-zinc-800 md:bg-transparent rounded-full md:rounded-none"
             draggable="false"
           />
-          <span className="hidden md:block">Lit Prompts</span>
+          <span className="hidden md:block">Einfach Prompts</span>
         </div>
       </Link>
       {searchBarvisible && <Search />}
@@ -53,7 +53,7 @@ export default function Header({ searchBarvisible, muted, setMuted }) {
           </button>
         )} */}
         <a
-          href="https://github.com/VishwaGauravIn/lit-prompts"
+          href="https://github.com/AILEXGPT/prompts"
           target="_blank"
           rel="noreferrer noopener"
           className="group bg-zinc-800 hover:bg-fuchsia-300 p-2 rounded-full h-12 w-12 sm:w-auto flex justify-center items-center cursor-pointer transition-all ease-in-out gap-2 text-fuchsia-400 hover:text-zinc-800 font-semibold sm:px-4"
