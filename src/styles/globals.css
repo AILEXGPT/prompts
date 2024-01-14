@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+/* Card design was inspired by capturemytweet card */
+.card {
+  border: 2px solid rgba(18, 18, 18, 0.9);
+  background: rgba(18, 18, 18, 0.8);
+  background-image: linear-gradient(
+    90deg,
+    rgba(18, 18, 18, 0.9) 0%,
+    rgba(18, 18, 18, 0.4) 74%
+  );
+  /* box-shadow: 00px 0px 40px -6px rgba(18, 18, 18, 0.2); */
+}
+
+.grad1 {
+  background-image: linear-gradient(135deg, #fff29d 10%, #fbe450 100%);
+  color: #121212;
+}
+
+.grad2 {
+  background-image: linear-gradient(135deg, #abdcff 10%, #0396ff 100%);
+  color: #121212;
+}
+
+.grad3 {
+  background-image: linear-gradient(135deg, #ffffff 10%, #b8bfc4 100%);
+}
+
+.grad4 {
+  background-image: linear-gradient(135deg, #ddbcfe 10%, #bdb9e9 100%);
+}
+
+.grad5 {
+  background-image: linear-gradient(135deg, #90f7ec 10%, #32ccbc 100%);
+}
+
+.grad6 {
+  background-image: linear-gradient(135deg, #fff6b7 10%, #f87594 100%);
+}
+
+.grad7 {
+  background-image: linear-gradient(135deg, #bafcd8 10%, #74bd95 100%);
+}
+
+.grad8 {
+  background-image: linear-gradient(135deg, #e2b0ff 10%, #9f44d3 100%);
+}
+
+.grad9 {
+  background-image: linear-gradient(135deg, #ffc0fc 10%, #eeb4e4 100%);
+}
+
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: -50%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes marquee2 {
+  0% {
+    left: -50%;
+  }
+  50% {
+    left: 0%;
+  }
+  100% {
+    left: -50%;
+  }
+}
+
+.marquee {
+  width: 100%;
+  color: #000000;
+  font-size: 4rem;
+  position: relative;
+  white-space: nowrap;
+  animation: marquee 60s linear infinite;
+  will-change: transform;
+  font-family: "Fredericka the Great", cursive;
+  opacity: 0.2;
+}
+
+.marquee:nth-child(odd) {
+  animation: marquee2 60s linear infinite;
+}
+
+/* Hide scrollbar */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.fade-appear {
+  animation: fadein 0.2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo-black {
+    @apply saturate-0 filter invert;
+  }
+}
