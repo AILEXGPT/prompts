@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Twitter */}
         <a
           className="bg-blue-500 text-blue-50 mt-3 hover:bg-blue-600 font-semibold uppercase  text-lg p-2 rounded-full shadow hover:shadow-md outline-none focus:outline-none  mb-1 ease-linear transition-all duration-150 flex items-center w-max aspect-square"
-          href="https://twitter.com/VishwaGauravIn"
+          href="https://twitter.com/ailexgpt"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -17,7 +17,7 @@ export default function Footer() {
         {/* GitHub */}
         <a
           className="bg-violet-500 text-violet-50 mt-3 hover:bg-violet-600 font-semibold uppercase  text-lg p-2 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 flex items-center w-max aspect-square"
-          href="https://github.com/VishwaGauravIn"
+          href="https://github.com/ailexgpt"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -26,7 +26,7 @@ export default function Footer() {
         {/* LinkedIn */}
         <a
           className="bg-blue-600 text-blue-50 mt-3 hover:bg-blue-700 font-semibold uppercase  text-lg p-2 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 flex items-center w-max aspect-square"
-          href="https://www.linkedin.com/in/VishwaGauravIn"
+          href="https://www.linkedin.com/einfachalex"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -35,7 +35,7 @@ export default function Footer() {
         {/* Instagram */}
         <a
           className="bg-rose-500 text-fuchsia-50 mt-3 hover:bg-rose-600 font-semibold uppercase  text-lg p-2 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 flex items-center w-max aspect-square"
-          href="https://www.instagram.com/VishwaGauravIn"
+          href="https://www.instagram.com/ailexgpt"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -45,9 +45,9 @@ export default function Footer() {
       {/* mail to */}
       <div className="flex justify-center w-full">
         <a
-          href="mailto:itsvgin@gmail.com"
+          href="mailto:ailexgpt@gmail.com"
           className="text-zinc-800 flex gap-1 text-base opacity-75 mt-2 transition-all ease-in-out hover:opacity-100"
-          title="Contact us for any business, service or query."
+          title="Contact me for any business, service or query."
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {"</>"} & Crafted with&nbsp;💛&nbsp;Vishwa Gaurav
+          {"</>"} & Crafted with&nbsp;💛&nbsp;AilexGPT by EinfachAlex
         </a>
       </div>
     </div>
