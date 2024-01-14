@@ -1,4 +1,4 @@
-[
+export const prompts = [
     {
         "cmd": "writer",
         "act": "fdfdf",
